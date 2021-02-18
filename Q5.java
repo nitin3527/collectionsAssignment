@@ -38,6 +38,6 @@ public class Q5 {
         Collections.sort(stud, Comparator.comparing(Student::getMarks)
                 .thenComparing(Student::getName));
         System.out.println(stud);
-        System.out.println("highest salary is: " + stud.get(stud.size()-1).marks);
+        System.out.println("highest marks is: " + stud.get(stud.size()-1).marks);
     }
 }
